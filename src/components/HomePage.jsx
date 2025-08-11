@@ -135,7 +135,7 @@ export default function HomePage() {
             </div>
             <button
               onClick={handleGetStarted}
-              className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-12 py-5 rounded-full font-bold text-xl hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center space-x-3"
+              className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-12 py-5 rounded-full font-bold text-xl hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center space-x-3 cursor-pointer"
             >
               <span>Get Started</span>
               <ArrowRight className="w-6 h-6" />
